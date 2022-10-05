@@ -1,6 +1,7 @@
-
-nav {
+nav, footer {
+  text-align: center;
   background-color: steelblue;
+  color: white;
   padding: 10px;
 }
 
@@ -12,6 +13,7 @@ a {
 
 h1 {
   color: steelblue;
+  text-align: center;
 }
 img {
   width: 80%;
@@ -20,17 +22,6 @@ img {
 p {
  
   width: 8%
-}
-footer {
-  background-color: steelblue;
-  color: white;
-}
-
-h1 {
-  text-align: center;
-}
-nav, footer {
-  text-align: center;
 }
 
 img {
@@ -49,6 +40,16 @@ main p {
   font-size: 1.5em;
   line-height: 1.5em;
 }#active {
+  background-color: white;
+  color: steelblue;
+}
+
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+a:hover {
   background-color: white;
   color: steelblue;
 }
